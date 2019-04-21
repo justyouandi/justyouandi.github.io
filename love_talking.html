@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<!-- <link rel="stylesheet" href="styles.css"> -->
+	<style type="text/css">
+		body, html {
+		  height: 100%;
+		}
+
+		.center { margin: 0 auto; width: 300px; display: block;}
+
+		.content {
+		  position: fixed;
+		  bottom: 0;
+		  background: rgba(0, 0, 0, 0.5);
+		  color: #f1f1f1;
+		  width: 100%;
+		  padding: 20px;
+		}
+
+		.myBtn {
+		  width: 200px;
+		  font-size: 18px;
+		  padding: 10px;
+		  border: none;
+		  background: #000;
+		  color: #fff;
+		  cursor: pointer;
+		}
+
+		.myBtn:hover {
+		  background: #ddd;
+		  color: black;
+		}
+		.bg { 
+		  /* The image used */
+		  background-image: url("collage1.jpg");
+
+		  /* Full height */
+		  width: 100%; 
+
+		  /* Center and scale the image nicely */
+		  background-position: center;
+		  background-repeat: no-repeat;
+		  background-size: cover;
+		}
+	</style>
+</head>
+<title>Just You and I</title>
+<body style="background-color: aliceblue;">
+		<div>
+			<video controls class="center">
+	  			<source src="../love_talking.mp4" type="video/mp4" align="middle">
+			</video>
+			<div class="content" style="text-align: center;"><h1>Just another impulse 😬</h1>
+			<button class="myBtn" onclick="window.location.href='./valentine.html'">Yeah, me too❤️</button>
+			<button class="myBtn" onclick="window.location.href='./birthday.html'">Uhh. Cool 😅 </button></div>
+		</div>
+</body>
+</html>
